@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #D87D4A;
+  --color-black: #101010;
+  --color-white: #FFFFFF;
+  --color-light-gray: #F1F1F1;
+  --color-lighter-gray: #FAFAFA;
+  --color-accent: #FBaf85;
+
+  --font-family-main: 'Manrope', sans-serif;
+
+  /* Font sizes */
+  --h1: 56px;
+  --h2: 40px;
+  --h3: 32px;
+  --h4: 28px;
+  --h5: 24px;
+  --h6: 18px;
+  --body: 15px;
+  --sub-title: 13px;
+
+  /* Line height & spacing */
+  --line-height-body: 25px;
+  --char-spacing-sub: 1px;
+}
