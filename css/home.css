@@ -12,6 +12,14 @@
   padding: 2rem 0;
 }
 
+.logo {
+  font-size: 1.25rem; /* adjust size to match design */
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: var(--color-white);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
