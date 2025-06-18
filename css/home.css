@@ -1,0 +1,245 @@
+/* Main Layout Styles */
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header */
+.header {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 2rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: var(--sub-title);
+}
+
+.cart-icon img {
+  width: 24px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-align: left;
+  padding: 6rem 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero .text {
+  max-width: 445px;
+}
+
+.hero .new-product {
+  color: var(--color-white);
+  opacity: 0.5;
+  letter-spacing: var(--char-spacing-sub);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.hero .btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem 0;
+  gap: 1.5rem;
+}
+
+.category {
+  background-color: var(--color-lighter-gray);
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+}
+
+.category img {
+  width: 120px;
+  margin-bottom: 1.5rem;
+}
+
+.category h3 {
+  text-transform: uppercase;
+  font-size: var(--h6);
+  margin-bottom: 1rem;
+}
+
+.category a {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: var(--sub-title);
+}
+
+/* Featured Sections */
+.featured {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.featured.zx9 {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured.zx9 img {
+  max-width: 200px;
+}
+
+.featured.zx9 .btn-dark {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.featured.zx7 {
+  background-color: var(--color-lighter-gray);
+  padding: 4rem 2rem;
+  text-align: left;
+}
+
+.featured.zx7 .btn-outline {
+  border: 1px solid var(--color-black);
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: none;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.featured.yx1 {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.featured.yx1 .image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.featured.yx1 .text {
+  background-color: var(--color-light-gray);
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  flex: 1;
+}
+
+/* About */
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.about .text {
+  flex: 1;
+}
+
+.about h2 span {
+  color: var(--color-primary);
+}
+
+.about .image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 4rem 0;
+}
+
+.footer .footer-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer .footer-links a {
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: var(--sub-title);
+}
+
+.footer-text {
+  opacity: 0.75;
+  max-width: 540px;
+  margin-bottom: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons img {
+  width: 24px;
+  cursor: pointer;
+}
