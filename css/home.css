@@ -14,7 +14,7 @@
 
 .logo {
   font-size: 1.25rem; /* adjust size to match design */
-  font-weight: 700;
+  font-weight: 900;
   text-transform: lowercase;
   letter-spacing: 2px;
   color: var(--color-white);
