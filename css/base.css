@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
-@import './variables.css';
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+@import "./variables.css";
 
 * {
   margin: 0;
@@ -31,3 +31,9 @@ h2 {
 }
 
 /* ...continue for h3 to h6... */
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
