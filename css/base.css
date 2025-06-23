@@ -32,8 +32,12 @@ h2 {
 
 /* ...continue for h3 to h6... */
 
-.container {
+/* .container {
   max-width: 1110px;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+ */
+.text-primary {
+  color: var(--color-primary) !important;
 }
