@@ -59,11 +59,13 @@
             >See Product</a
           >
         </div>
-        <img
-          src="./assets/shared/desktop/image-xx99-mark-two-headphones-1.png"
-          class="img-fluid"
-          alt="XX99 Mark II Headphones"
-        />
+        <div class="hero-image-wrapper ms-md-auto hero-image">
+          <img
+            src="./assets/shared/desktop/image-xx99-mark-two-headphones-1.png"
+            class="img-fluid"
+            alt="XX99 Mark II Headphones"
+          />
+        </div>
       </div>
     </section>
 
@@ -72,34 +74,40 @@
       <div class="container">
         <div class="row g-4 text-center">
           <div class="col-md-4">
-            <img
-              src="./assets/shared/desktop/image-category-thumbnail-headphones.png"
-              alt="Headphones"
-            />
-            <h3 class="mt-3 text-uppercase">Headphones</h3>
-            <a href="#" class="text-muted text-uppercase fw-bold"
-              >Shop &rarr;</a
-            >
+            <div class="category-card">
+              <img
+                src="./assets/shared/desktop/image-category-thumbnail-headphones.png"
+                alt="Headphones"
+              />
+              <h3 class="mt-3 text-uppercase">Headphones</h3>
+              <a href="#" class="text-muted text-uppercase fw-bold"
+                >Shop &rarr;</a
+              >
+            </div>
           </div>
           <div class="col-md-4">
-            <img
-              src="./assets/shared/desktop/image-category-thumbnail-speakers.png"
-              alt="Speakers"
-            />
-            <h3 class="mt-3 text-uppercase">Speakers</h3>
-            <a href="#" class="text-muted text-uppercase fw-bold"
-              >Shop &rarr;</a
-            >
+            <div class="category-card">
+              <img
+                src="./assets/shared/desktop/image-category-thumbnail-speakers.png"
+                alt="Speakers"
+              />
+              <h3 class="mt-3 text-uppercase">Speakers</h3>
+              <a href="#" class="text-muted text-uppercase fw-bold"
+                >Shop &rarr;</a
+              >
+            </div>
           </div>
           <div class="col-md-4">
-            <img
-              src="./assets/shared/desktop/image-category-thumbnail-earphones.png"
-              alt="Earphones"
-            />
-            <h3 class="mt-3 text-uppercase">Earphones</h3>
-            <a href="#" class="text-muted text-uppercase fw-bold"
-              >Shop &rarr;</a
-            >
+            <div class="category-card">
+              <img
+                src="./assets/shared/desktop/image-category-thumbnail-earphones.png"
+                alt="Earphones"
+              />
+              <h3 class="mt-3 text-uppercase">Earphones</h3>
+              <a href="#" class="text-muted text-uppercase fw-bold"
+                >Shop &rarr;</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -107,7 +115,7 @@
 
     <!-- ZX9 Speaker -->
     <section
-      class="container featured zx9 d-flex flex-column flex-lg-row justify-content-center align-items-center text-white bg-custom-primary py-5 rounded mb-5"
+      class="container featured zx9 d-flex flex-column flex-lg-row justify-content-center align-items-center text-white bg-custom-primary py-5 rounded"
     >
       <img
         src="./assets/home/desktop/image-speaker-zx9.png"
@@ -132,27 +140,25 @@
     </section>
 
     <!-- ZX7 Speaker -->
-    <section class="featured zx7 bg-light py-5">
-      <div
-        class="container d-flex justify-content-between align-items-center flex-column flex-md-row"
-      >
+    <section class="featured zx7 position-relative overflow-hidden py-5">
+      <div class="container">
         <img
           src="./assets/home/desktop/image-speaker-zx7.jpg"
-          class="img-fluid mb-4 mb-md-0"
+          class="img-fluid w-100"
           alt="ZX7 Speaker"
         />
-        <div class="text text-md-start text-center">
+        <div class="text-overlay position-absolute text-start">
           <h2>ZX7 Speaker</h2>
-          <a href="#" class="btn btn-outline-dark mt-3 text-uppercase fw-bold"
-            >See Product</a
-          >
+          <a href="#" class="btn btn-outline-dark mt-3 text-uppercase fw-bold">
+            See Product
+          </a>
         </div>
       </div>
     </section>
 
     <!-- YX1 Earphones -->
     <section class="featured yx1 py-5">
-      <div class="container d-flex flex-column flex-md-row gap-4">
+      <div class="container d-flex flex-column flex-md-row gap- align-self-start">
         <div class="image w-100">
           <img
             src="./assets/home/desktop/image-earphones-yx1.jpg"
@@ -164,7 +170,7 @@
           class="text bg-light p-5 rounded w-100 d-flex flex-column justify-content-center"
         >
           <h2>YX1 Earphones</h2>
-          <a href="#" class="btn btn-outline-dark mt-3 text-uppercase fw-bold"
+          <a href="#" class="btn btn-outline-dark mt-3 text-uppercase fw-bold align-self-start"
             >See Product</a
           >
         </div>
@@ -192,7 +198,7 @@
             best place to buy our portable equipment.
           </p>
         </div>
-        <div class="image">
+        <div class="image ms-md-auto">
           <img
             src="./assets/shared/desktop/image-best-gear.jpg"
             class="img-fluid rounded"
