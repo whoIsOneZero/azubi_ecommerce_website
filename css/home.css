@@ -142,12 +142,13 @@ section:not(.hero) {
   max-width: 300px;
 }
 
-.featured.zx7 .btn-outline {
+/* .featured.zx7 .btn-outline {
   border: 1px solid var(--color-black);
   background: none;
   color: var(--color-black);
 }
-
+ */
+ 
 .featured.yx1 .text {
   background-color: var(--color-light-gray);
   padding: 4rem 2rem;
