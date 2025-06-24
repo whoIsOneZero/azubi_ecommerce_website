@@ -126,9 +126,20 @@ section:not(.hero) {
 }
 
 .featured.zx7 {
-  background-color: var(--color-lighter-gray);
-  padding: 4rem 2rem;
-  text-align: left;
+  padding: 0; /* remove internal padding */
+}
+
+.featured.zx7 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  max-width: 300px;
 }
 
 .featured.zx7 .btn-outline {
