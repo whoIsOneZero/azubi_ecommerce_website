@@ -65,6 +65,15 @@
   mask-size: cover;
 }
 
+section:not(.hero) {
+  margin-top: 6rem;
+}
+
+@media (min-width: 768px) {
+  section:not(.hero) {
+    margin-top: 6rem;
+  }
+}
 
 .category-card {
   position: relative;
@@ -80,7 +89,7 @@
   top: -40px;
   left: 50%;
   transform: translateX(-50%);
-  width: 120px;
+  width: 140px;
   z-index: 2;
   transition: transform 0.3s ease;
 }
@@ -97,7 +106,7 @@
 
 .category-card a {
   display: inline-block;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
   font-weight: 700;
